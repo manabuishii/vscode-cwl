@@ -20,7 +20,10 @@
         "grammars": [{
             "language": "cwl",
             "scopeName": "source.cwl",
-            "path": "./syntaxes/cwl.tmLanguage.json"
+            "path": "./syntaxes/cwl.tmLanguage.json",
+		    "embeddedLanguages": {
+				"meta.embedded.block.javascript": "javascript"
+			}
         }]
     }
 }
